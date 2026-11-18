@@ -1,0 +1,36 @@
+{
+  "version": "v1",
+  "model": "Gradient Boosting",
+  "params": {
+    "model__learning_rate": "0.1",
+    "model__max_depth": "3",
+    "model__n_estimators": "200"
+  },
+  "test_metrics": {
+    "MAE": 2.151,
+    "RMSE": 2.902,
+    "R2": 0.915
+  },
+  "input_features": [
+    "crime_rate",
+    "resid_area",
+    "air_qual",
+    "room_num",
+    "age",
+    "dist1",
+    "dist2",
+    "dist3",
+    "dist4",
+    "teachers",
+    "poverty_rate",
+    "airport",
+    "hospital_beds",
+    "hotel_rooms",
+    "waterbody",
+    "rainfall",
+    "has_bus_terminal",
+    "parks"
+  ],
+  "trained_at": "2026-11-18T22:36:22+00:00",
+  "sklearn": "1.9.1"
+}
